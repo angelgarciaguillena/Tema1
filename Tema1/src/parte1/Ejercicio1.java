@@ -15,7 +15,7 @@ public class Ejercicio1 {
 		Scanner sc = new Scanner(System.in);
 
 /*Hago que el programa lea el numero*/
-		double num = sc.nextInt();
+		double num = sc.nextDouble();
 		
 /*El programa lee el numero y lo muestra*/
 		System.out.println("El numero es " + num);

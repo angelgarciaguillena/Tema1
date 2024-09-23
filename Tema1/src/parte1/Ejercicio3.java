@@ -1,5 +1,7 @@
 package parte1;
 
+import java.util.Scanner;
+
 public class Ejercicio3 {
 	public static void main(String[] args) {
 		
@@ -11,7 +13,7 @@ public class Ejercicio3 {
 		Scanner sc = new Scanner (System.in);
 		
 /*Pedimos la fecha de nacimiento al usuario*/
-		System.out.println("Introduzca su fecha de nacimiento");
+		System.out.println("Introduzca su año de nacimiento");
 		
 /*Leemos la fecha de nacimiento*/
 		nacimiento = sc.nextInt();
@@ -25,7 +27,11 @@ public class Ejercicio3 {
 /*Realizamos la resta para calcular su edad*/
 		edad = actual - nacimiento;
 		
-/**/
+/*Mostramos la edad del usuario*/
+		System.out.println("Tu edad es " + edad);
+		
+/*Cerramos el Scanner*/
+		sc.close();
 	
 	}
 }
