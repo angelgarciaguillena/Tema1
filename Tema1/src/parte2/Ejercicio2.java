@@ -24,6 +24,9 @@ public class Ejercicio2 {
 		resto = (num % MULTIPLO);
 		resultado = resto == 0 ? 0 : MULTIPLO - resto;
 		
+/*Mostramos la solucion*/
+		System.out.println("Hay que sumarle " + resultado);
+		
 /*Cerramos el Scanner*/
 		sc.close();
 	}
