@@ -28,7 +28,7 @@ public class Ejercicio3 {
 		
 /*Calculamos lo que hay que sumarle para ser multiplo de num2*/
 		resto = (num2 % num1);
-		resultado = resto == 0 ? 0 : num2 - resto;
+		resultado = resto == 0 ? 0 : resto;
 		System.out.println("Hay que sumarle " + resultado);
 		
 /*Cerramos el Scanner*/
