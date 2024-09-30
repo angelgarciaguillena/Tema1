@@ -9,7 +9,7 @@ public class Ejercicio5 {
 		int segundos;
 		int minutos;
 		int horas;
-		int segundos2;
+		int segundoshor;
 		int segundosfin;
 		
 /*Creamos un Scanner*/
@@ -23,13 +23,12 @@ public class Ejercicio5 {
 		
 /*Calculamos la cantidad de horas, minutos y segundos*/
 		horas = segundos / 3600;
-		segundos2 = segundos % 3600;
-		minutos = segundos2 / 60;
-		segundosfin = segundos2 % 60;
+		segundoshor = segundos % 3600;
+		minutos = segundoshor / 60;
+		segundosfin = segundoshor % 60;
 		
 /*Mostramos el resultado*/
 		System.out.println(horas + " horas, " + minutos + " minutos y " + segundosfin +" segundos");
-		
 		
 /*Cerramos el Scanner*/
 		sc.close();
