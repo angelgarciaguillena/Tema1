@@ -9,7 +9,7 @@ public class Ejercicio5 {
 		double radio;
 		double longitud;
 		double area;
-		final int numero = 2;
+		final int NUMERO = 2;
 		
 /*Pedimos el radio de la circunferencia*/
 		System.out.println("Introduce el radio de la circunferencia");
@@ -21,7 +21,7 @@ public class Ejercicio5 {
 		radio = sc.nextDouble();
 		
 /*Realizamos las operaciones*/
-		longitud = numero * Math.PI * radio;
+		longitud = NUMERO * Math.PI * radio;
 		area = Math.PI * radio * radio;
 		
 /*Mostramos el resultado de la longitud*/

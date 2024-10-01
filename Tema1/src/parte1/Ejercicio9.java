@@ -8,7 +8,7 @@ public class Ejercicio9 {
 /*Creamos las variables*/
 		boolean mayor;
 		int edad;
-		final int min = 18;
+		final int MIN = 18;
 /*Creamos un Scanner*/
 		Scanner sc = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class Ejercicio9 {
 		edad = sc.nextInt();
 		
 /*Indicamos si es mayor de 18 años*/
-		mayor = (edad>=min);
+		mayor = (edad>=MIN);
 		System.out.println(mayor);
 		
 /*Cerramos el Scanner*/

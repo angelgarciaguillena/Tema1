@@ -8,7 +8,7 @@ public class Ejercicio4 {
 /*Creamos las variables*/
 		double nota1;
 		double nota2;
-		final int division = 2;
+		final int DIVISION = 2;
 		double suma;
 		double media;
 		
@@ -29,7 +29,7 @@ public class Ejercicio4 {
 		
 /*Realizamos las operaciones*/
 		suma = nota1 + nota2;
-		media = suma / division;
+		media = suma / DIVISION;
 		
 /*Mostramos al usuario la media aritmetica de las dos notas que ha introducido*/
 		System.out.println("La media aritmetica es " + media);
